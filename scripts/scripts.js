@@ -450,4 +450,128 @@
 // 	} else {
 // 		console.log(`not have day like this`);
 // 	}
-//  }
+//  } const day = +prompt(`wright day of the week`);
+// dayWeek(day);
+
+//Switch case======
+
+// let day = +prompt("Day of the Week");
+// switch (day) {
+// case 1 :
+//     console.log('Monday');
+//     break;
+//     case 2 :
+//         console.log('Tuesday');
+//         break;
+//     case 3 :
+//         console.log('Wednesday');
+//         break;
+//     case 4 :
+//         console.log('Thursday');
+//         break;
+//     case 5:
+//         console.log(`Friday`);
+//         break;
+//     case 6 :
+//         console.log(`Saturday`);
+//         break;
+//     case 7 :
+//         console.log(`Sunday`);
+//         break;
+//     default :
+//         console.log(`Not have day like this`);
+//         break;
+// }
+
+//Ternar======
+
+// const day = +prompt('Day of the Week');
+// day === 1
+// ?console.log('Monday')
+//     :day === 2
+// ?console.log('Tuesday')
+//     :day === 3
+// ?console.log('Wednesday')
+//         :day === 4
+// ?console.log('Thursday')
+//             :day === 5
+// ?console.log('Friday')
+//                 :day === 6
+// ?console.log('Saturday')
+//                     :day === 7
+// ?console.log('Sunday')
+//                         :console.log('Not have day like this')
+
+
+//Задание №10======
+
+// let number = +prompt('Wright number');
+// if (number < 0) {
+//     alert(-1);
+// }else if (number > 0){
+//     alert(1);
+// }else if (number === 0) {
+//     alert(0);
+// }else {
+//     alert('Wright number');
+// }
+
+//Задание №11======
+
+// let login = prompt("Enter login");
+// login === "Сотрудник"
+//     ? message = "Привет"
+//     :  login === "Директор"
+//         ? message = "Здравствуйте"
+//         :  login === ""
+//             ? message = "Нет такого логина"
+//             : message =""
+// console.log(message)
+
+//Задание №12======
+
+// function housing(apartment) {
+//     if (apartment >= 1 && apartment <=20) {
+//     console.log('housing 1');
+//     }else if (apartment >= 21 && apartment <=48) {
+//         console.log('housing2');
+//     }else if (apartment >= 49 && apartment <= 90) {
+//         console.log('housing 3');
+//     }else {
+//         console.log('this house not have apartment like this');
+//     }
+// }
+// let aparntment = +prompt('wright a number of apartment');
+// housing(aparntment);
+
+
+//Задание №13======
+
+// let browser = prompt('Enter name of browser');
+// if (browser === 'Edge') {
+//     alert("You've got the Edge!");
+// }else if (browser === "Google" || browser === "Firefox" || browser === "Safari" || browser === "Opera" ) {
+//     alert('Okay we support these browsers too');
+// }else {
+//     alert('We hope that this page looks ok!');
+// }
+
+//Задание №14======
+
+// let number = +prompt('Введите число между 0 и 3', '');
+// switch (number){
+//     case 0 :
+//         alert('Вы ввели число 0');
+//         break;
+//     case 1 :
+//         alert('Вы ввели число 1');
+//         break;
+//     case 2 :
+//     case 3 :
+//         alert('Вы ввели число 2, а может и 3');
+//         break;
+//     default:
+//         alert("Выполните условие!");
+//         break;
+// }
+
