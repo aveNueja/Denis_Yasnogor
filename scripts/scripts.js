@@ -415,7 +415,7 @@
 
 // Задание №8======
 
-// let year = prompt('Year of Work');
+// let year = +prompt('Year of Work');
 // if(year > 0 && year < 5) {
 //     console.log("your allowance is 0%")
 // } else if (year >= 5 && year < 10) {
