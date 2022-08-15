@@ -1,0 +1,235 @@
+.container{
+    display: block;
+    width: 1400px;
+    height: 1772px;
+    background: #000000;
+}
+.s1{
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    margin: 68px 74px;
+    background: #FFFFFF;
+    border-radius: 32px;
+
+}
+
+.s2 {
+    position:absolute;
+    width: 42px;
+    height: 42px;
+    margin:47px 454px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+
+
+}
+.s3{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin:23px 730px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s4 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    margin: 68px 1134px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+
+}
+.s6{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin:337px 238px ;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s7{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin:453px 91px ;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s8{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin:484px 364px ;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s9{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin: 484px 895px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s10{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    margin: 294px 1134px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.s11{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    margin: 453px 1217px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.btn{
+    position: absolute;
+    width: 264px;
+    height: 73px;
+    margin: 301px 570px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+.btn span{
+    color:#750505;
+}
+.nft {
+    color: #750505;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease-in;
+}
+
+
+.nft__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+    padding: 0 50px;
+}
+
+.nft__card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 178px;
+    height: 251px;
+    border-radius: 12px;
+    background: #3E3E3E;
+    margin: 20px;
+
+}
+
+.nft__card:hover .nft__card.delete {
+    transition: all .2s linear;
+    bottom: -50px;
+}
+
+.nft__card.delete {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 178px;
+    background: #fff;
+    height: 50px;
+    bottom: 0;
+    z-index: -1;
+    transition: all .2s linear;
+}
+
+.btn__basket {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nft__card__cont {
+    display: flex;
+    padding: 5px;
+    width: 170px;
+    height: 195px;
+    background: #3E3E3E;
+    border-radius: 12px;
+}
+
+.nft__card__cont img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.card__name {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    width: 70px;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.card__description {
+    position: absolute;
+    bottom: 16px;
+    left: 17px;
+
+    width: 70px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.cubes {
+    background: #fff;
+    position: absolute;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+}
+body {
+    background: #000;
+}
+
+.container {
+    width: 1400px;
+    height: 1772px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 665px;
+    position: relative;
+}
